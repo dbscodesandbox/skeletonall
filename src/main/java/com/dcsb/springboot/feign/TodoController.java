@@ -1,4 +1,4 @@
-package com.dcsb.springboot.feign.todo;
+package com.dcsb.springboot.feign;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
