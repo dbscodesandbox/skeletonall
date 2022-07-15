@@ -8,11 +8,11 @@
 		<version>2.7.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.dcsb.springboot.feign</groupId>
+	<groupId>com.dcsb.springboot</groupId>
 	<artifactId>skeletonall</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>skeletonall</name>
-	<description>Demo project for Spring Boot feign</description>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
