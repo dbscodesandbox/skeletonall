@@ -1,0 +1,20 @@
+//Before optimization
+
+public class Perfooptimize {
+	private List<Customer> CreateCusotmerWithInvoices(List<invoice> invoices){
+		
+		final List<Customer> cusotomers = new ArrayList();
+		for(Invoice inv : invoices) {
+			finale Customer cust = Customer.builder()
+											.invoice(inv)
+											.customerStatusRepo.findByCode
+													(CusomterStatuscode.CREATED.toString())
+											.build();
+			customerrepo.save(cust);
+		}
+		LOG.info("Sucessfully created Cusotmers");
+		return cusotomers;
+		
+	}
+
+}
